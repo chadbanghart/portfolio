@@ -20,7 +20,8 @@
         "Express",
         "NodeJs",
         "Heroku",
-        "Token-Based Auth"
+        "Token-Based Auth",
+        "AWS S3"
       ]
     },
     {

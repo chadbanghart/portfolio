@@ -1,10 +1,10 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
-import React, { useEffect, useState, useContext } from "react";
-import { withRouter } from "react-router";
-import { NavLink } from "react-router-dom";
-import styled, { ThemeContext } from "styled-components";
-import endpoints from "../constants/endpoints";
-import ThemeToggler from "./ThemeToggler";
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import React, { useEffect, useState, useContext } from 'react';
+import { withRouter } from 'react-router';
+import { NavLink } from 'react-router-dom';
+import styled, { ThemeContext } from 'styled-components';
+import endpoints from '../constants/endpoints';
+import ThemeToggler from './ThemeToggler';
 
 const styles = {
   logoStyle: {
@@ -43,7 +43,7 @@ const NavBar = () => {
 
   useEffect(() => {
     fetch(endpoints.navbar, {
-      method: "GET",
+      method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -83,7 +83,7 @@ const NavBar = () => {
           <Nav>
             {data &&
               data.sections?.map((section, index) =>
-                section?.type === "link" ? (
+                section?.type === 'link' ? (
                   <ExternalNavLink
                     key={section.title}
                     href={section.href}
@@ -107,7 +107,7 @@ const NavBar = () => {
                   >
                     {section.title}
                   </InternalNavLink>
-                )
+                ),
               )}
           </Nav>
           <ThemeToggler onClick={() => setExpanded(false)} />

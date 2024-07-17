@@ -1,39 +1,38 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
+  "logo": {
+    "source": "images/logo.png",
+    "height": 45,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Experience",
-            "href": "/experience"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Experience",
+      "href": "/experience"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Resume",
+      "href": "https://docs.google.com/document/d/1aOp45vi9hBbFw8d_Cu3lNr0SHys7fdd2/edit?usp=sharing&ouid=108616954479614005393&rtpof=true&sd=true",
+      "type": "link"
+    }
+  ]
 }

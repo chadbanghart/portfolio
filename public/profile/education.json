@@ -1,19 +1,22 @@
 {
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        }
-    ]
+  "education": [
+    {
+      "title": "Mar 2024 - Jun 2024",
+      "cardTitle": "Software Engineering Bootcamp",
+      "cardSubtitle": "General Assembly",
+      "cardDetailedText": "Awards: Eagle Eye - Detected most bugs, Code Wrangler - Solved most complex problems",
+      "icon": {
+        "src": "images/education/GA.png"
+      }
+    },
+    {
+      "title": "",
+      "cardTitle": "B.A. Production & Design, Minor: Business",
+      "cardSubtitle": "Indiana University, Bloomington",
+      "cardDetailedText": "",
+      "icon": {
+        "src": "images/education/indiana.png"
+      }
+    }
+  ]
 }

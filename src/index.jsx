@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// @TODO -- .render is depricated!! 
 ReactDOM.render(
   <React.StrictMode>
     <App />

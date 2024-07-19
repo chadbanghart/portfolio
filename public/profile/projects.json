@@ -3,7 +3,7 @@
     {
       "image": "images/projects/fresh-family-photo.png",
       "title": "Fresh Family Photo",
-      "bodyText": "- Photography Job Platform Single Page App made in React\n -  Users can create job posts as a Job Poster or Apply as a Photographer.\n - Dynamic user interface and functionality based on user type.",
+      "bodyText": "- Photography job platform single page app made in **React**\n -  Users can create job posts as a job poster or apply as a photographer.\n - Dynamic user interface and functionality based on user type.",
       "links": [
         {
           "text": "GitHub",
@@ -26,8 +26,8 @@
     },
     {
       "image": "images/projects/insightink.png",
-      "title": "InsightInk -  Journaling App",
-      "bodyText": "- A Dynamic Journaling web app made using **Django** to suit **Anyone's** journaling needs. People can create multiple journal, multiple entries per journal, and view entries displayed dynamically based on the template chosen.\n - Collaborated with team member from start to finish.\n - Deployed on **heroku** using **gunicorn**.",
+      "title": "InsightInk",
+      "bodyText": "- A dynamic journaling web app made using **Django** to suit anyone's journaling needs. People can create multiple journals, multiple entries per journal, and view entries displayed dynamically based on the template chosen.\n - Collaborated with team member from start to finish.\n - Deployed on **heroku** using **gunicorn**.",
       "links": [
         {
           "text": "GitHub",
@@ -51,7 +51,7 @@
     {
       "image": "images/projects/food-inventory.png",
       "title": "Food Inventory",
-      "bodyText": "- A Full Stack App that aids users in tracking their **food inventory** at home.\n - Multiple tracking properties, sorting functionality, and expiration tracking to aid the user in keeping their food inventory fresh, organized, and full.",
+      "bodyText": "- A full stack app that aids users in tracking their food inventory at home.\n - Multiple tracking properties, sorting functionality, and expiration tracking to aid the user in keeping their food inventory fresh, organized, and full.",
       "links": [
         {
           "text": "GitHub",
@@ -73,8 +73,8 @@
     },
     {
       "image": "images/projects/blackjack.png",
-      "title": "Blackjack App",
-      "bodyText": "- A Desktop Blackjack App.\n - Double Down, Dealer Messaging, Wagering, and Buy back-in Features.\n - Created Using Vanilla Javascript.",
+      "title": "Blackjack",
+      "bodyText": "- A web browser Blackjack game.\n - Double down, dealer messaging, wagering, and buy back-in features.\n - Created using vanilla **javascript**.",
       "links": [
         {
           "text": "GitHub",
@@ -86,6 +86,42 @@
         }
       ],
       "tags": ["Javascript", "HTML", "CSS/Flexbox/Grid", "GitHub Pages"]
+    },
+    {
+      "image": "images/projects/finch.png",
+      "title": "Finch Collector",
+      "bodyText": "- A full crud python app.\n - One:many & many:many relationships incorporated between entities.\n - App to track pets, their feedings, and their toys.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/chadbanghart/finchcollector"
+        }
+      ],
+      "tags": ["Python", "Django", "PostgreSQL", "Class Based Views", "CSS/Materialize"]
+    },
+    {
+      "image": "images/projects/tictactoe.png",
+      "title": "Tic-Tac-Toe",
+      "bodyText": "- A web browser game of tic-tac-toe.\n - Created using vanilla **javascript**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/chadbanghart/tic-tac-toe"
+        }
+      ],
+      "tags": ["Javascript", "HTML", "CSS"]
+    },
+    {
+      "image": "images/projects/mern.png",
+      "title": "MERN Infrastructure Template",
+      "bodyText": "- MERN stack template created for starting new MERN stack projects.\n - JWT implemented for auth & security",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/chadbanghart/MERN-Infrastructure"
+        }
+      ],
+      "tags": ["MongoDB", "Express", "React", "NodeJs", "JSON Web Token"]
     }
   ]
 }
